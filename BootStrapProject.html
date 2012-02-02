@@ -3,12 +3,12 @@
 	
 	<head>
 		<meta charset="UTF-8">
+		<title> The Lodge Bed and Breakfast</title>
 		<link rel="stylesheet" href="http://twitter.github.com/bootstrap/1.4.0/bootstrap.min.css">
 		<link rel="stylesheet" href="BootStyle.css">
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"> 			</script>
-		<script src="https://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js">
-		</script>
-		<title> The Lodge Bed and Breakfast</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+		<script src="https://twitter.github.com/bootstrap/1.4.0/bootstrap-modal.js"></script>
+		
 	</head>
 		
 	<body>
@@ -74,9 +74,39 @@
 						Tour 
 					</h1>
 				</div>
+					<div id="tour-modal" class="modal hide fade" style="position: relative; top: auto; left: auto; margin: 0">
+						<div class="modal-header">
+    						<h3>The Lodge</h3>
+    						<a href="#" class="close">&times;</a>
+						</div>
+						<div class="modal-body">
+    						<p>image will be here</p>
+						</div>
+						<div class="modal-footer">
+    						<a href="#" class="btn primary">Forward</a>
+    						<a href="#" class="btn">Back</a>
+						</div>					
+					</div>
+	
 				
-					
-			</div>
+					<div class="container">
+      					<button data-controls-modal="tour-modal"
+	      				data-backdrop="true"
+	      				data-keyboard="true"
+	      				class="btn danger">Click For Tour</button>
+	      			</div>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+			</div>	
 		</div>
 				
 				
