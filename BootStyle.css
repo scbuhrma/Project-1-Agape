@@ -1,4 +1,28 @@
 body {
 	background: #b2bdcb;
+	background: #2989c8; /* Old browsers */
+background: -moz-linear-gradient(left,  #2989c8 0%, #b2bdcb 10%, #b2bdcb 90%, #2989c8 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#2989c8), color-stop(10%,#b2bdcb), color-stop(90%,#b2bdcb), color-stop(100%,#2989c8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #2989c8 0%,#b2bdcb 10%,#b2bdcb 90%,#2989c8 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #2989c8 0%,#b2bdcb 10%,#b2bdcb 90%,#2989c8 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #2989c8 0%,#b2bdcb 10%,#b2bdcb 90%,#2989c8 100%); /* IE10+ */
+background: linear-gradient(left,  #2989c8 0%,#b2bdcb 10%,#b2bdcb 90%,#2989c8 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989c8', endColorstr='#2989c8',GradientType=1 ); /* IE6-9 */
+
 }
 
+h1 {
+	color: #fff;
+	}
+
+#header {
+	background-image: url(main.jpg);
+	background-size: 100%;
+	text-shadow: 0px 0px 15px #000;
+	}
+	
+.content {
+	padding-left: 50px;
+	padding-right: 50px;
+	}
+	
